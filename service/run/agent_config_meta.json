@@ -1,0 +1,328 @@
+{
+  "keys": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+  "middleware": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+      "port": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+      "user": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+      "password": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+      "database": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js"
+    },
+    "app": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+    "agent": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+    "default": {
+      "database": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+      "type": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "supportedRequests": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWitheList": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+    "domainWhiteList": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "ipExceptionList": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+    "credentials": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js",
+    "allowMethods": "/Users/haha/Documents/react/react_blog2/service4/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-session/config/config.default.js",
+    "logValue": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "allowArrayField": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js",
+      "disable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "name": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "version": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "description": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "private": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "stop": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "dev": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "debug": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "test": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "cov": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "lint": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "ci": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "autod": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "build": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "gcp-build": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "deploy": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "type": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "url": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "license": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "cacheControl": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "strict": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "depth": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "env": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "level": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "enablePerformanceTimer": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "logging": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "port": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/haha/Documents/react/react_blog2/service4/node_modules/egg/config/config.default.js"
+}
