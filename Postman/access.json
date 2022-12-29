@@ -1,0 +1,14 @@
+{"access_token":"64_Hq10xZptyiMx8UrbvVqWE3UVS7mKAQGDApG-pQcY4kx68Snddm6pS8DtEBlDg-MHG7Zh3qGO44PzL41NsUMibPkFN0duR-xwpJUQPasq-nEaFU8_hLrherwpKBINOQgACADEG","expires_in":7200}
+const loginRequest = {
+	url: 'http://115.28.108.130:5000/api/user/login/',
+	method: "POST",
+    body: {
+        mode: 'urlencoded',  // 
+        urlencoded: 'name=student&password=123456'
+    }
+};
+
+pm.sendRequest(regRequest, function (err, res) {
+	console.log(err ? err : res.json());  // 响应为JSON格式可以使用res.json()获取到JSON对象
+});
+
