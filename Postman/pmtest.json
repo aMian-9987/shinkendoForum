@@ -1,0 +1,17 @@
+pm.test("Status code is 200", function () {
+	pm.response.to.have.status(200);
+});
+
+pm.test("Body is correct", function () {
+	pm.response.to.have.body("shinkendoForum");
+});
+
+pm.test("Successful POST request", function () {
+	pm.expect(pm.response.code).to.be.oneOf([201,202]);
+});
+
+var jsonObject = xml2Json(responseBody);
+
+var jsonData = JSON.parse(responseBody) ;
+# data.expected 
+tests["access succeed"] = jsonData.expires_in===data.expected ;
