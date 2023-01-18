@@ -11,7 +11,8 @@ npm install
 
 yarn dev -p 7003  # 启动
 
-# 更改跨域端口：service/config/config.default.js
+## 使用本地数据库，请在【service/config/config.default.js】文件的【config.mysql】中配置
+## 如果7003端口已被占用，请在【service/config/config.default.js】文件中将【config.security = {http://127.0.0.1:7003}】更改为其他端口
 ```
 
 ### 前台 blog2
