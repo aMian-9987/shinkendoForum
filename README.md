@@ -31,7 +31,7 @@ npm install moment
 yarn dev  # 启动
 
 ## 如果报错【Module not found: Can't resolve 'antd/dist/antd.min.css'】
-## 将目录【blog2/node_modules/antd/dist】更换为本项目根目录中的dist文件夹
+## 将目录【blog2/node_modules/antd/dist】替换成本项目根目录中的dist.zip文件解压后的文件夹
 
 # 浏览器访问 http://localhost:3000/
 ```
