@@ -26,19 +26,19 @@ module.exports = appInfo => {
   config.mysql = {
     // database configuration
     client: {
-      // host
-      // host: 'localhost',
-      host: '', //
-      // port
-      // port: '8889',
-      port: '3306',
-      // username
+      // local test
+      host: 'localhost',
+      port: '8889',
       user: 'root',
-      // password
-      // password: 'root',
-      password: '',
-      // database
+      password: 'root',
       database: 'react_blog',
+
+      // remote
+      // host: '',
+      // port: '3306',
+      // user: 'root',
+      // password: '',
+      // database: 'react_blog',
     },
     // load into app, default is open
     app: true,
