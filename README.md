@@ -5,6 +5,8 @@ the recent update would be blog function on login and video interaction
 ### 中台 service
 
 ```bash
+cd service  # 跳转到service目录
+
 # 安装包
 npm i egg-init
 npm install
@@ -18,6 +20,8 @@ yarn dev -p 7003  # 启动
 ### 前台 blog2
 
 ```bash
+cd blog2  # 跳转到blog2目录
+
 # 安装包
 yarn add @zeit/next-css  # 支持css
 npm install react-icons --save
