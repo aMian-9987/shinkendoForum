@@ -5,34 +5,6 @@ import React, { useState } from 'react'
 import { PlusOutlined } from '@ant-design/icons';
 import { Button, Col, DatePicker, Drawer, Form, Input, Row, Select, Space } from 'antd';
 
-
-
-
-// const Author=()=>{
-//   return (
-//       <div className='author-div comm-box'>
-//           <div><Avatar size={100} src='https://static.independent.co.uk/2022/08/22/15/newFile-2.jpg' /> </div>
-//           {/* <div className='author-introduction'>Login in</div> */}
-//           {/* <Button type='primary'>按钮</Button> */}
-//           <Button style={{backgroundColor:'#F0F2F5'}}
-
-//   onClick={()=>{window.location.href="local:3000"}}
-
-//   className="r-button"
-
-// >Log in</Button>
-//           <Divider>Links</Divider>
-//           <Avatar size={28} className='account'> <AiFillGithub/> </Avatar>
-//           <Avatar size={28} className='account'> <AiFillLinkedin/> </Avatar>
-//           <Avatar size={28} className='account'> <AiFillTwitterCircle/> </Avatar>
-//       </div> 
-//   )
-// }
-
-
-
-
-
 const login = ({ username , password }) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -162,77 +134,6 @@ function Author() {
   )
 }
 
-// const { Option } = Select;
-// const Author = () => {
-//   const [open, setOpen] = useState(false);
-//   const showDrawer = () => {
-//     setOpen(true);
-//   };
-//   const onClose = () => {
-//     setOpen(false);
-//   };
-//   return (
-//     <>
-//       <div><Avatar size={100} src='https://static.independent.co.uk/2022/08/22/15/newFile-2.jpg' /> </div>
-//       <Button type="primary" onClick={showDrawer} icon={<PlusOutlined />}>
-//         Login
-//       </Button>
-//       <Drawer
-//         title="Create a new account"
-//         width={720}
-//         onClose={onClose}
-//         open={open}
-//         bodyStyle={{
-//           paddingBottom: 80,
-//         }}
-//         extra={
-//           <Space>
-//             <Button onClick={onClose}>Cancel</Button>
-//             <Button onClick={onClose} type="primary">
-//               Submit
-//             </Button>
-//           </Space>
-//         }
-//       >
-//         <Form layout="vertical" hideRequiredMark>
-//           <Row gutter={16}>
-//             <Col span={24}>
-//               <Form.Item
-//                 name="name"
-//                 label="Name"
-//                 rules={[
-//                   {
-//                     required: true,
-//                     message: 'Please enter user name',
-//                   },
-//                 ]}
-//               >
-//                 <Input placeholder="Please enter user name" />
-//               </Form.Item>
-//             </Col>
-//           </Row>
-//           <Row gutter={16}>
-//             <Col span={24}>
-//               <Form.Item
-//                 name="owner"
-//                 label="Owner"
-//                 rules={[
-//                   {
-//                     required: true,
-//                     message: 'Please input the password',
-//                   },
-//                 ]}
-//               >
-//                  <Input placeholder="Please enter password" />
-                
-//               </Form.Item>
-//             </Col>        
-//           </Row>
-//         </Form>
-//       </Drawer>
-//     </>
-//   );
-// };
 
 
 export default Author
