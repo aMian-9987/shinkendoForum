@@ -68,10 +68,7 @@ function Author() {
         <div className="card-body">
           <h1 className="card-title">User Login</h1>
           
-          <div><Avatar size={100} src='https://static.independent.co.uk/2022/08/22/15/newFile-2.jpg' /> </div>
-          <Button type="primary" onClick={showDrawer} icon={<PlusOutlined />}>
-          Login
-          </Button>
+          <div><Avatar size={100} src='https://static.independent.co.uk/2022/08/22/15/newFile-2.jpg' onClick={showDrawer} icon={<PlusOutlined />}></Avatar> </div>
           {error && (
             <>
               <h1 className="text-danger">{error}</h1>
