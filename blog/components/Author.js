@@ -75,53 +75,46 @@ function Author() {
             </>
           )}
       <Drawer
-        title="Login to comment"
-        width={720}
+        title="User Login"
+        width={300}
         onClose={onClose}
         open={open}
         bodyStyle={{
           paddingBottom: 80,
         }}
-        // extra={
-        //   <Space>
-        //     <Button onClick={onClose}>Cancel</Button>
-        //     <Button onClick={onClose} type="primary">
-        //       Submit
-        //     </Button>
-        //   </Space>
-        //   }
           >
+            
           <form onSubmit={handleSumbit}>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Username</label>
+              <label className='form-item' htmlFor="exampleInputEmail1">Username</label>
               <input
                 type="text"
                 className="form-control"
                 id="exampleInputEmail1"
+                placeholder="username"
                 value={username}
                 onChange={(e) => setUsername(e.currentTarget.value)}
                 aria-describedby="emailHelp"
               />
-             <h1></h1>
-          
+
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputPassword1">Password </label>
+              <label className='form-item' htmlFor="exampleInputPassword1">Password </label>
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.currentTarget.value)}
                 className="form-control"
                 id="exampleInputPassword1"
+                placeholder="password"
               />
             </div>
             <button
               type="submit"
-
-              className="btn btn-block btn-dark"
+              className="btn btn-block btn-dark submitBtn"
               disabled={isSubmitting}
             >
-              {isSubmitting ? 'submitting' : 'submit'}
+              {isSubmitting ? 'submitting...' : 'submit'}
             </button>
           </form>
           </Drawer>
