@@ -1,10 +1,11 @@
 body{
-    background-color: #C6E5E0;  
+    height: 100%;
   }
 
   /* 左右两栏 */
   .comm-main{
-    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    background: linear-gradient(#990000, black);
   }
   .comm-left{
     background-color: #fff;
@@ -32,8 +33,10 @@ body{
     /* list */
     .list-title{
         font-size:1.3rem;
-        color: #1e90ff;
         padding: 0 0.5rem;
+    }
+    .list-title-text{
+      color: #990000 !important;
     }
     .list-context{
         color:#777;
@@ -51,7 +54,7 @@ body{
     /* comments */
     
     .comment-header{
-      color: #1890ff;;
+      color: #990000;;
       padding-left:.5rem;
       padding-bottom:.5rem;
       font-size: larger;

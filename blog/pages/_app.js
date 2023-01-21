@@ -1,3 +1,15 @@
+// import App from 'next/app'
+
+// import '../styles/globals.css'
+// import 'antd/dist/antd.min.css'
+
+
+// // function MyApp({ Component, pageProps }) {
+// //   return <Component {...pageProps} />
+// // }
+
+// export default App
+
 import App from 'next/app'
 import 'antd/dist/antd.min.css'
 
@@ -8,5 +20,7 @@ import '../styles/components/author.css'
 import '../styles/components/advert.css'
 import '../styles/components/footer.css'
 import '../styles/pages/details.css'
+import '../styles/pages/schedule.css'
+import '../styles/pages/gallery.css'
 
 export default App

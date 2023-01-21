@@ -1,3 +1,4 @@
+/* blog作者 */
 .author-div{
     text-align: center;
     padding: 1rem;
@@ -13,4 +14,13 @@
     background-color: #999;
     margin-left: .5rem;
     margin-right: .5rem;
+}
+
+/* 用户登录 */
+.login-div {
+    margin: 150px auto;
+    width: 400px;
+}
+body {
+    background-color: #f0f0f0;
 }

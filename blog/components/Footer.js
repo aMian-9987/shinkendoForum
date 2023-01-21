@@ -1,7 +1,7 @@
 const Footer=()=>(
     <div className="footer-div">
-        <div>系统由React+Node+Ant Design</div>
-        <div>jspang.com</div>
+        <div>Powered by React+Node+Ant Design</div>
+        <div>USC Shinkendo</div>
     </div>
 )
 

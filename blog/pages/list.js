@@ -13,6 +13,7 @@ import Author from '../components/Author';
 import Advert from '../components/Advert';
 import Footer from '../components/Footer';
 
+// list header = discussion, tutorial
 
 
 export default function LogList(list) {
@@ -25,22 +26,18 @@ export default function LogList(list) {
   return (
     <div>
       <Head>
-        <title>List</title>
+        <title>Shinkendo</title>
       </Head>
       
       <Header />
       
       <Row className='comm-main' type='flex' justify='center'>
+
+        <div className='logoBox'>
+          <img size={100} src="https://raw.githubusercontent.com/fantaome/shinkendoForum/797c89f5e17d3a2d136d4dc06cbda10b4ef09fc2/blog/public/shinkendoText.png" width="100%" />
+        </div>
+
         <Col className='comm-left' xs={24} sm={24} md={16} lg={16} xl={16} >
-
-          <div className='bread-div'>
-            <Breadcrumb>
-              <Breadcrumb.Item><a href='/'>Main</a></Breadcrumb.Item>
-              <Breadcrumb.Item><a href='/'>Academia</a></Breadcrumb.Item>
-              <Breadcrumb.Item><a href='/'>Club</a></Breadcrumb.Item>
-            </Breadcrumb>
-          </div>
-
           <List 
             header={<div>Latest Posts</div>}
             itemLayout="vertical"
@@ -49,13 +46,13 @@ export default function LogList(list) {
               <List.Item>
                 <div className='list-title'>
                 <Link href={{pathname:'/details',query:{id:item.id}}}>
-                    <a>{item.title}</a>
+                    <a className='list-title-text'>{item.title}</a>
                   </Link>
                 </div>
                 <div className='list-icon'>
                   <span><AiOutlineCalendar /> {item.addTime} </span>
                   <span><AiFillFolder /> {item.typeName} </span>
-                  <span><AiFillFire /> {item.view_count}人 </span>
+                  <span><AiFillFire /> {item.view_count} view </span>
                 </div>
                 <div className='list-context'>{item.intro}</div>
               </List.Item>
@@ -79,7 +76,7 @@ LogList.getInitialProps = async (context) => {  // 通过路由传递上下文�
     const promise = new Promise((resolve) => {
       axios(servicePath.getListById+id).then(
         (res) => {
-          // console.log('-----> ', res.data); 
+          console.log('getListById-----> ', res.data); 
           resolve(res.data);
         }
       )

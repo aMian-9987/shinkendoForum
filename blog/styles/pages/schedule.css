@@ -1,0 +1,41 @@
+.logoBox {
+  display: flex;
+  justify-content: space-between;
+  height:17rem;
+  width: 8rem;
+  margin-left: -9rem;
+  margin-right: 1rem;
+}
+
+
+.schedule-list-title {
+    font-size:larger;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.schedule-list-item {
+    color: blue;
+    text-decoration: underline;
+    padding:0.2rem;
+    padding-left: 1rem;
+}
+.schedule-list-item:hover{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.USC-Practice-Time {
+    color: black;
+    padding:0.2rem;
+    padding-left: 1rem;
+}
+.honbuDojo {
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.honbuDojo1 {
+    font-weight: 600;
+}
+.honbuDojo2 {
+    color: #990000;
+}

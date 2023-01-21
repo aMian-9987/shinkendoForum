@@ -47,23 +47,25 @@ export default function Details(props) {
 
 
 
+  // TODO 开始：渲染markdown
+  // const renderer = new marked.Renderer();
+  // marked.setOptions({
+  //   renderer:renderer,  // 渲染方式
+  //   gfm:true,  // true: github markdown 的渲染方式
+  //   pendantic: false,  // false: 对不符合markdown的代码进行容错
+  //   sanitize: false,  // true: 忽略html标签
+  //   tables: true,  // true: github样式的表格
+  //   breaks: false,  // true: 支持github换行符
+  //   smartLists: true,  // true: 优化列表样式
+  //   highlight: function(code) {
+  //     return hljs.highlightAuto(code).value;  // 监测代码是什么语言，自动高亮
+  //   }
+  // })
 
-  const renderer = new marked.Renderer();
-  marked.setOptions({
-    renderer:renderer,  // 渲染方式
-    gfm:true,  // true: github markdown 的渲染方式
-    pendantic: false,  // false: 对不符合markdown的代码进行容错
-    sanitize: false,  // true: 忽略html标签
-    tables: true,  // true: github样式的表格
-    breaks: false,  // true: 支持github换行符
-    smartLists: true,  // true: 优化列表样式
-    highlight: function(code) {
-      return hljs.highlightAuto(code).value;  // 监测代码是什么语言，自动高亮
-    }
-  })
+  // let html = marked(props.article_content);  // markdown -> html
+  let html = props.article_content;  // markdown -> html
 
-  let html = marked(props.article_content);  // markdown -> html
-
+  // TODO 结束
   // let md2html = props.article_content;  // 从props里拿出文章内容
   // console.log("props "+props.title);
   // console.log("md2html "+md2html);
@@ -116,7 +118,7 @@ export default function Details(props) {
   return (
     <div>
       <Head>
-        <title>Details</title>
+        <title>Shinkendo Article Details</title>
       </Head>
       <Header />
       <Row className='comm-main' type='flex' justify='center'>
@@ -127,8 +129,8 @@ export default function Details(props) {
             <div className='bread-div'>
               <Breadcrumb>
                 <Breadcrumb.Item> <a href='/'>Home Page</a> </Breadcrumb.Item>
-                <Breadcrumb.Item> <a href='/'> {props.typeName} </a> </Breadcrumb.Item>
-                <Breadcrumb.Item> <a href='/'>{props.title}</a> </Breadcrumb.Item>
+                <Breadcrumb.Item> <a href={'/list?id='+props.typeId}> {props.typeName} </a> </Breadcrumb.Item>
+                <Breadcrumb.Item> <a href={'/details?id='+props.id}>{props.title}</a> </Breadcrumb.Item>
               </Breadcrumb>
             </div>
             
