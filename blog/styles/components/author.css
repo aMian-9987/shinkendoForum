@@ -24,6 +24,26 @@
 body {
     background-color: #f0f0f0;
 }
+.loginBtn {
+    background-color: #990000;
+    color: #fff;
+    border: none;
+}
+.loginBtn:hover{
+    background-color: #990000;
+    color: #fff;
+    border: none;
+}
+.loginBtn::selection{
+    background-color: #990000;
+    background: #fff;
+    color: #fff;
+    border: none;
+}
+
+/* .loginBtn :active{
+    background-color: #990000;
+} */
 
 /* 表单样式 */
 .form-item {
@@ -38,6 +58,9 @@ body {
     margin-bottom: 0.5rem;
     box-shadow: none;
 }
+.form-control .hover{
+    /* background-color: #659cd7; */
+}
 .submitBtn {
     margin-top: 0.5rem;
     background-color: #990000;
@@ -45,5 +68,4 @@ body {
     border: 0px solid #fff;
     padding: 0.2rem 1rem;
     border-radius: 0.2rem;
-
 }
