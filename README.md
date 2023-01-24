@@ -4,7 +4,7 @@ Official Website: http://www-scf.usc.edu/~shinken/index.html
                   http://www.shinkendo.com/bbs/index.html
                   
 The project consist of front stack with React frame. The backend stack was assemled by nginx and mySQL. 
-#### installation: first initialize middle office then start front-end and back-end repo
+#### installation: first initialize middle office then start front-end blog2 and back-end repo
 ### middle office service
 
 ```bash
@@ -22,7 +22,7 @@ yarn dev -p 7003  # start
 #       同时，在【blog/config/apiUrl.js】中，将【let ipUrl = 'http://127.0.0.1:7003/default/';】改为相应端口；
 ```
 
-###Front-end blog2
+### Front-end blog2
 
 ```bash
 cd blog2  # 
@@ -33,8 +33,9 @@ npm install react-icons --save  && npm install axios && npm install moment && np
 yarn add antd, react-markdown, markdown-navbar, marked, highlight.js
 # start
 yarn dev  
-
-```
 # ! For error【Module not found: Can't resolve 'antd/dist/antd.min.css'】：
 #       replace【blog2/node_modules/antd/dist】as dist.zip files
 # ！explore in http://localhost:3000/
+
+```
+
