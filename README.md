@@ -2,6 +2,7 @@
 This full stack project created for USC official club website as a expansion which includes student information storage, display Markdown articles.
 Official Website: http://www-scf.usc.edu/~shinken/index.html
                   http://www.shinkendo.com/bbs/index.html
+                  
 #展示放这里                 
 The project consist of front stack with React frame. The backend stack was assemled by nginx and mySQL. 
 #### installation: first initialize middle office then start front-end blog2 and back-end repo
